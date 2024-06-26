@@ -1,0 +1,12 @@
+dave@vbox:~$ cd
+dave@vbox:~$ cd shb
+-bash: cd: shb: No such file or directory
+dave@vbox:~$ git clone https://github.com/meonkeys/shb.git
+Cloning into 'shb'...
+remote: Enumerating objects: 4555, done.
+remote: Counting objects: 100% (905/905), done.
+remote: Compressing objects: 100% (369/369), done.
+remote: Total 4555 (delta 629), reused 797 (delta 528), pack-reused 3650
+Receiving objects: 100% (4555/4555), 21.70 MiB | 7.01 MiB/s, done.
+Resolving deltas: 100% (3026/3026), done.
+dave@vbox:~$
