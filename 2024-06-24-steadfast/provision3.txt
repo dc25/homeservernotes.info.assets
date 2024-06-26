@@ -1,0 +1,6 @@
+dave@vbox:~/shb/mario/ansible$
+dave@vbox:~/shb/mario/ansible$ ./provision.sh
+You don't have a config file. I'll create one for you now.
+
+Please edit '/home/dave/shb/mario/ansible/config' and re-run this script.
+dave@vbox:~/shb/mario/ansible$

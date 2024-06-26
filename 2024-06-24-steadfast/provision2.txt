@@ -1,0 +1,12 @@
+dave@vbox:~/shb/mario/ansible$ which ansible
+/usr/bin/ansible
+dave@vbox:~/shb/mario/ansible$ ansible --version
+ansible 2.10.8
+  config file = /home/dave/shb/mario/ansible/ansible.cfg
+  configured module search path = ['/home/dave/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+dave@vbox:~/shb/mario/ansible$ ./provision.sh
+ERROR: Ansible core 2.16.1 or later required, but was not found.
+dave@vbox:~/shb/mario/ansible$

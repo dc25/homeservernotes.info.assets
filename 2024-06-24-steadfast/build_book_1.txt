@@ -1,0 +1,9 @@
+dave@vbox:~/shb$ ./book/build.sh 
+🏗️	start at Wed Jun 26 08:45:18 AM PDT 2024
+🚢	build image
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/build?buildargs=%7B%22WORK_DIR%22%3A%22%2Fusr%2Fsrc%2Fapp%2Fbook%22%7D&cachefrom=%5B%5D&cgroupparent=&cpuperiod=0&cpuquota=0&cpusetcpus=&cpusetmems=&cpushares=0&dockerfile=.Dockerfile&labels=%7B%7D&memory=0&memswap=0&networkmode=default&q=1&rm=1&shmsize=0&t=shb-asciidoctor&target=&ulimits=null&version=1": dial unix /var/run/docker.sock: connect: permission denied
+dave@vbox:~/shb$ 

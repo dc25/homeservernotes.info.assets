@@ -1,0 +1,39 @@
+dave@vbox:/etc$ cd
+dave@vbox:~$ cd .ssh/
+dave@vbox:~/.ssh$ ls
+authorized_keys  id_rsa  id_rsa.pub  known_hosts  known_hosts.old
+dave@vbox:~/.ssh$ cat > config
+Host mario_server
+  User dave
+dave@vbox:~/.ssh$ ssh mario_server
+The authenticity of host 'mario_server (192.168.8.245)' can't be established.
+ED25519 key fingerprint is SHA256:wMruTqhwwkKrYybkteOH3xd+rmUgj2ldwym2apOqRKU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'mario_server' (ED25519) to the list of known hosts.
+dave@mario_server's password:
+Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-35-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Jun 26 09:03:59 PM UTC 2024
+
+  System load:  0.0              Temperature:              54.5 C
+  Usage of /:   0.4% of 1.48TB   Processes:                140
+  Memory usage: 1%               Users logged in:          1
+  Swap usage:   0%               IPv4 address for enp12s0: 192.168.8.245
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+12 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Jun 26 20:54:48 2024 from 192.168.8.146
+dave@honeybear:~$

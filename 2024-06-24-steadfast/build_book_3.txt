@@ -1,0 +1,19 @@
+dave@vbox:~$ sudo gpasswd -a $USER docker
+Adding user dave to group docker
+dave@vbox:~$
+dave@vbox:~$
+dave@vbox:~$ cd shb
+dave@vbox:~/shb$ ./book/build.sh
+🏗️       start at Wed Jun 26 08:56:30 AM PDT 2024
+🚢      build image
+🚢      start container
+🖨️       typeset HTML
+💾      wrote steadfast.html
+🖨️       typeset standard print-ready PDF
+💾      wrote steadfast.print.pdf
+🖨️       typeset screen-optimized PDF
+💾      wrote steadfast.screen.pdf
+🖨️       typeset EPUB
+asciidoctor: WARNING: conversion missing in backend epub3 for toc
+💾      wrote steadfast.epub
+Running 3 checks (Images, Links, Scripts) in steadfast.html on *.html files ...
