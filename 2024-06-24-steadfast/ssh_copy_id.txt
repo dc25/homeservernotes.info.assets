@@ -1,0 +1,37 @@
+dave@vbox:~$ ssh-copy-id mario_server
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/dave/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+dave@mario_server's password:
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'mario_server'"
+and check to make sure that only the key(s) you wanted were added.
+
+dave@vbox:~$ ssh mario_server
+Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-35-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Jun 26 09:06:00 PM UTC 2024
+
+  System load:  0.08             Temperature:              56.0 C
+  Usage of /:   0.4% of 1.48TB   Processes:                138
+  Memory usage: 1%               Users logged in:          1
+  Swap usage:   0%               IPv4 address for enp12s0: 192.168.8.245
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+12 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Jun 26 21:03:59 2024 from 192.168.8.131
+dave@honeybear:~$

@@ -1,0 +1,49 @@
+root@vbox:/etc# git diff hosts
+root@vbox:/etc#
+root@vbox:/etc# cat hosts
+127.0.0.1       localhost
+127.0.1.1       vbox.myguest.virtualbox.org     vbox
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+root@vbox:/etc#
+root@vbox:/etc#
+root@vbox:/etc# cat >> hosts
+
+# Adding the following per Steadfast self hosting book:
+192.168.8.245  mario_server
+root@vbox:/etc#
+root@vbox:/etc#
+root@vbox:/etc#
+root@vbox:/etc# git diff hosts
+diff --git a/hosts b/hosts
+index e2c976f..00e8425 100644
+--- a/hosts
++++ b/hosts
+@@ -7,3 +7,6 @@ fe00::0 ip6-localnet
+ ff00::0 ip6-mcastprefix
+ ff02::1 ip6-allnodes
+ ff02::2 ip6-allrouters
++
++# Adding the following per Steadfast self hosting book:
++192.168.8.245  mario_server
+root@vbox:/etc#
+root@vbox:/etc#
+root@vbox:/etc# cat hosts
+127.0.0.1       localhost
+127.0.1.1       vbox.myguest.virtualbox.org     vbox
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+# Adding the following per Steadfast self hosting book:
+192.168.8.245  mario_server
+root@vbox:/etc#

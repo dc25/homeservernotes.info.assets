@@ -1,0 +1,35 @@
+dave@vbox:~$ cd
+dave@vbox:~$ pwd
+/home/dave
+dave@vbox:~$ cd shb
+dave@vbox:~/shb$ ls
+book  ChangeLog  COPYING  issues.adoc  mario  pelican  Readme.adoc  style-guide.adoc
+dave@vbox:~/shb$ cd mario/
+dave@vbox:~/shb/mario$ ls
+ansible  COPYING  Readme.md
+dave@vbox:~/shb/mario$ cd ansible/
+dave@vbox:~/shb/mario/ansible$ ./provision.sh
+ERROR: Ansible not installed or not found in path.
+dave@vbox:~/shb/mario/ansible$ sudo apt install ansible
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  linux-image-6.5.0-18-generic linux-modules-6.5.0-18-generic linux-modules-extra-6.5.0-18-generic
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  ieee-data python-babel-localedata python3-argcomplete python3-babel python3-distutils python3-dnspython python3-jinja2 python3-jmespath python3-kerberos python3-libcloud
+  python3-netaddr python3-ntlm-auth python3-packaging python3-pycryptodome python3-requests-kerberos python3-requests-ntlm python3-requests-toolbelt python3-selinux
+  python3-simplejson python3-winrm python3-xmltodict
+Suggested packages:
+  cowsay sshpass python3-sniffio python3-trio python-jinja2-doc ipython3 python-netaddr-docs
+The following NEW packages will be installed:
+  ansible ieee-data python-babel-localedata python3-argcomplete python3-babel python3-distutils python3-dnspython python3-jinja2 python3-jmespath python3-kerberos
+  python3-libcloud python3-netaddr python3-ntlm-auth python3-packaging python3-pycryptodome python3-requests-kerberos python3-requests-ntlm python3-requests-toolbelt
+  python3-selinux python3-simplejson python3-winrm python3-xmltodict
+0 upgraded, 22 newly installed, 0 to remove and 5 not upgraded.
+Need to get 28.2 MB of archives.
+After this operation, 272 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+Get:1 http://us.archive.ubuntu.com/ubuntu jammy/main amd64 python-babel-localedata all 2.8.0+dfsg.1-7 [4,982 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu jammy/main amd64 python3-babel all 2.8.0+dfsg.1-7 [85.1 kB]
