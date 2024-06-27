@@ -1,8 +1,5 @@
   190  sudo add-apt-repository ppa:ansible/ansible
   191  sudo apt install ansible-core
-  192  ./provision.sh
-  193  sudo apt uninstall ansible
   194  sudo apt remove ansible
   195  sudo apt install ansible-core
   196  sudo apt install ansible
-  197  history
