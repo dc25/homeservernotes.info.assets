@@ -1,0 +1,5 @@
+dave@vbox:/tmp$ dig @1.1.1.1 +nocmd honeybear.live ns +noall +answer
+honeybear.live.         86400   IN      NS      ns2.digitalocean.com.
+honeybear.live.         86400   IN      NS      ns3.digitalocean.com.
+honeybear.live.         86400   IN      NS      ns1.digitalocean.com.
+dave@vbox:/tmp$
